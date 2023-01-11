@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CholesterolActivity">
+    <TextView
+        android:id="@+id/txtCholesterol"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Cholesterol"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="Choose Medication" />
+
+    <Spinner
+        android:id="@+id/spinnerMedication"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textView"/>
+
+    <Spinner
+        android:id="@+id/spinnerDosage"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/spinnerMedication"/>
+
+    <Spinner
+        android:id="@+id/spinnerAmount"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/spinnerDosage"/>
+
+    <Spinner
+        android:id="@+id/spinnerTime"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/spinnerAmount"/>
+
+    <EditText
+        android:id="@+id/txtNotes"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/spinnerTime"
+        android:layout_centerInParent="true"
+        android:hint="Add extra instructions..." />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/txtNotes"
+        android:text="Button" />
+
+</RelativeLayout>

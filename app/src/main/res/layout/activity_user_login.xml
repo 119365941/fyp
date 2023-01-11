@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".UserLoginActivity">
+
+    <!--Edits elements in textviews, assigns an id so they can be referenced and added to the Layout
+        Aligns text, sets height and width, text size and centers the views-->
+    <TextView
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:text="Welcome!"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        android:id="@+id/textviewWelcome"
+         />
+
+    <TextView
+        android:id="@+id/textviewName"
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/textviewWelcome"
+        android:layout_centerInParent="true"
+        android:textAlignment="center"
+        android:textSize="30sp"
+        />
+
+    <Button
+        android:id="@+id/btnCholesterol"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/textviewName"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="110dp"
+        android:text="Cholesterol" />
+
+    <Button
+        android:id="@+id/btnHypertension"
+        android:layout_width="175dp"
+        android:layout_height="50dp"
+        android:layout_below="@id/btnCholesterol"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="5dp"
+        android:layout_marginEnd="110dp"
+        android:text="Hypertension" />
+
+</RelativeLayout>

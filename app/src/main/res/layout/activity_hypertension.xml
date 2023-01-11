@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".HypertensionActivity">
+
+    <TextView
+        android:id="@+id/txtHypertension"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:text="Hypertension"
+        android:textAlignment="center"
+        android:textSize="30sp" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:text="Choose Medication" />
+
+    <Spinner
+        android:id="@+id/spinner"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/textView"/>
+
+    <Spinner
+        android:id="@+id/spinner2"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/spinner"/>
+
+    <Spinner
+        android:id="@+id/spinner3"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/spinner2"/>
+
+    <Spinner
+        android:id="@+id/spinner4"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_below="@+id/spinner3"
+        android:layout_centerInParent="true" />
+
+    <EditText
+        android:id="@+id/txtNotes"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/spinner4"
+        android:hint="Add extra instructions..." />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="250dp"
+        android:layout_height="50dp"
+        android:layout_centerInParent="true"
+        android:layout_below="@+id/txtNotes"
+        android:text="Button" />
+
+</RelativeLayout>

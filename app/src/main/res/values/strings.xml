@@ -1,0 +1,84 @@
+<resources>
+    <string name="app_name">Environment</string>
+
+    <!--Hypertension-->
+        <string-array name="medicationHypertension">
+            <item>Calpol</item>
+            <item>Panadol</item>
+            <item>Paracetamol</item>
+            <item>Penicillin</item>
+        </string-array>
+
+        <string-array name="dosageHypertension">
+            <item>5mg</item>
+            <item>10mg</item>
+            <item>15mg</item>
+            <item>20mg</item>
+            <item>30mg</item>
+        </string-array>
+
+        <string-array name="amountHypertension">
+            <item>1</item>
+            <item>2</item>
+            <item>3</item>
+            <item>4</item>
+        </string-array>
+
+        <string-array name="timeHypertension">
+            <item>8 a.m</item>
+            <item>9 a.m</item>
+            <item>10 a.m</item>
+            <item>11 a.m</item>
+            <item>12 p.m</item>
+            <item>1 p.m</item>
+            <item>2 p.m</item>
+            <item>3 p.m</item>
+            <item>5 p.m</item>
+            <item>6 p.m</item>
+            <item>7 p.m</item>
+            <item>8 p.m</item>
+            <item>9 p.m</item>
+            <item>10 p.m</item>
+        </string-array>
+
+    <!--Cholesterol-->
+    <string-array name="medicationCholesterol">
+        <item>Calpol</item>
+        <item>Panadol</item>
+        <item>Paracetamol</item>
+        <item>Penicillin</item>
+    </string-array>
+
+    <string-array name="dosageCholesterol">
+        <item>5mg</item>
+        <item>10mg</item>
+        <item>15mg</item>
+        <item>20mg</item>
+        <item>30mg</item>
+    </string-array>
+
+    <string-array name="amountCholesterol">
+        <item>1</item>
+        <item>2</item>
+        <item>3</item>
+        <item>4</item>
+    </string-array>
+
+    <string-array name="timeCholesterol">
+        <item>8 a.m</item>
+        <item>9 a.m</item>
+        <item>10 a.m</item>
+        <item>11 a.m</item>
+        <item>12 p.m</item>
+        <item>1 p.m</item>
+        <item>2 p.m</item>
+        <item>3 p.m</item>
+        <item>5 p.m</item>
+        <item>6 p.m</item>
+        <item>7 p.m</item>
+        <item>8 p.m</item>
+        <item>9 p.m</item>
+        <item>10 p.m</item>
+    </string-array>
+
+</resources>
